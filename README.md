@@ -21,7 +21,7 @@ Sunmon's TIL(Today I Learn), Tech blog
 색상은 ***[open color](https://yeun.github.io/open-color/)*** 를 참고하였습니다.
 
 
-![underlines](assets\img\uploads\readme\underlines.png)  
+![underlines](assets/img/uploads/readme/underlines.png)  
   
   
   
@@ -41,5 +41,5 @@ Sunmon's TIL(Today I Learn), Tech blog
 
 카테고리별 포스팅 개수를 보여줍니다
 
-![category-postings](assets\img\uploads\readme\category-counter.png)  
+![category-postings](assets/img/uploads/readme/category-counter.png)  
 
