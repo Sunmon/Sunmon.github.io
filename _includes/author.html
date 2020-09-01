@@ -43,6 +43,11 @@
             <svg><use xlink:href="#icon-linkedin"></use></svg>
           </a>
         {% endif %}
+        {% if author.tistory_username %}
+          <a href="https://{{ author.tistory_username }}.tistory.com" title="Tistory">
+            <svg><use xlink:href="#icon-tistory"></use></svg>
+          </a>
+        {% endif %}
       </p>
     </div>
   </section>
@@ -65,6 +70,9 @@
   {% endif %}
   {% if author.linkedin_username %}
       {% assign author_urls = author_urls | append: '"https://www.linkedin.com/in/' | append: author.linkedin_username | append: '",' %}
+  {% endif %}
+  {% if author.tistory_username %}
+    {% assign author_urls = author_urls | append: '"https://' | append: author.tistory_username | append: '.tistory.com/' | append: '",' %}
   {% endif %}
 
   <script type="application/ld+json">

@@ -19,7 +19,7 @@ collections:
   authors:
     output: true
 paginate_path: "/page/:num/"
-show_get_theme_btn: true
+show_get_theme_btn: false
 use_logo: false
 
 # Content paginator
@@ -48,6 +48,7 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-paginate-content
+  - jekyll-last-modified-at 
 
 # Exclude my node related stuff
 exclude: [
@@ -62,5 +63,21 @@ exclude: [
   'README.md'
 ]
 
+# default YAML
+defaults:
+  - 
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+      author: "sunmon"
+      math: true
+      paginate: true
+
+
+
+
 # Theme
-version: v3.1.0
+# version: v3.1.0
+

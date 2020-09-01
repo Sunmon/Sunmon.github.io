@@ -607,13 +607,19 @@
 }
 
 .icon-clock,
-.icon-calendar {
+.icon-calendar,
+.icon-last-modified {
   width: rem(14px);
   height: rem(14px);
   fill: darken($lightGray, 30%);
   vertical-align: middle;
   margin-right: rem(3px);
 }
+
+.last-modified {
+  float: right;
+}
+
 
 /* Tags */
 

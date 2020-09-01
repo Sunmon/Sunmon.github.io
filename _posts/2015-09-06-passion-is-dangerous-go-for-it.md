@@ -17,7 +17,39 @@ Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, na
 
 > Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+<span class="ud"> Etiam porta **sem malesuada magna** mollis euismod. </span>Cras mattis conse<span class="under-red">ctetur purus sit amet fermentum. Aenean lacinia bib</span>endum nulla sed consectetur.
+
+안녕하세요. 한글입니다 이번에는 형광펜과 밑줄을 테스트해볼건데요.
+밑줄과 그리고 회색 색깔을 비교해보려고 합니다. 한 번 보시죠.
+
+이것은 밑줄이고 우선 <span class="ud">첫번쨰로 gray-0을 보시겠습니다</span>. 보셨나요?
+
+이번엔 <span class="ud-gray">밑줄 gray-1 색깔을 보시겠습니다.</span> 어떤가요?
+
+
+이번에는 형광펜을 보겠습니다.
+이것은 형광펜이고 우선 <span class="under-red">첫번쨰로 gray-0을 보시겠습니다.</span> 보셨나요?
+이번엔 <span class="ud-yellow">형광펜 gray-1 색깔을 보시겠습니다</span>. 어떤가요?
+
+
+## 형광펜 긋기
+
+형광펜을 그어봅시다!
+
+
+1. 이 문장은 <span class="ud-red">빨간색 형광펜</span>입니다. 이 문장은 <span class="ud-orange">주황색 형광펜</span>입니다.
+3. 이 문장은 <span class="ud-yellow">노란색 형광펜</span>입니다. 이 문장은 <span class="ud-green">초록색 형광펜</span>입니다.
+5. 이 문장은 <span class="ud-lime">라임색 형광펜</span>입니다. 이 문장은 <span class="ud-blue">파란색 형광펜</span>입니다.
+7. 이 문장은 <span class="ud-indigo">남색 형광펜</span>입니다. 이 문장은 <span class="ud-pink">핑크색 형광펜</span>입니다.
+9. 이 문장은 <span class="ud-violet">보라색 형광펜</span>입니다. 이 문장은 <span class="ud-grape">포도색 형광펜</span>입니다.
+11. 이 문장은 <span class="ud-cyan">cyan색 형광펜</span>입니다. 이 문장은 <span class="ud-teal">teal색 형광펜</span>입니다.
+13. 이 문장은 <span class="ud-gray">회색 형광펜</span>입니다. 이 문장은 <span class="ud-darkgray">진한 회색 형광펜</span>입니다.
+
+숫자 없이 써봤어요.
+
+
+
+
 
 ## Inline HTML elements
 

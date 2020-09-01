@@ -120,6 +120,9 @@ layout: main
 {% if site.linkedin_username %}
     {% assign social_urls = social_urls | append: '"https://www.linkedin.com/in/' | append: site.linkedin_username | append: '",' %}
 {% endif %}
+{% if site.tistory_username %}
+    {% assign social_urls = social_urls | append: '"https://' | append: site.tistory_username | append: '.tistory.com/' | append: '",' %}
+{% endif %}
 
 <script type="application/ld+json">
 {

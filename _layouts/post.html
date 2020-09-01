@@ -6,6 +6,7 @@
         {% include svg-icons.html %}
         {% include header.html %}
 
+
         <section class="post {% if site.two_columns_layout %}two-columns{% else %}one-column{% endif %}">
             <article role="article" class="post-content">
                 <p class="post-info">
@@ -17,6 +18,11 @@
                     {% endif %}
                     <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
                     <span>{{ minutesText }}</span>
+                    <!-- last-updated -->
+                    <span class = "last-modified">
+                        <svg id="last-modified" class="icon-last-modified"><use xlink:href="#icon-last-modified"></use></svg>
+                        <span >{% include last-modified.html %}</span>
+                    </span>
                 </p>
                 <h1 class="post-title">{{ page.title }}</h1>
                 <p class="post-subtitle">{{ page.subtitle }}</p>
@@ -102,6 +108,9 @@
         {% endif %}
         {% if author.linkedin_username %}
             {% assign author_urls = author_urls | append: '"https://www.linkedin.com/in/' | append: author.linkedin_username | append: '",' %}
+        {% endif %}
+        {% if author.tistory_username %}
+            {% assign author_urls = author_urls | append: '"https://' | append: author.tistory_username | append: '.tistory.com/' | append: '",' %}
         {% endif %}
         {% if page.math %}
         <script>
