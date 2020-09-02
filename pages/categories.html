@@ -6,23 +6,19 @@ permalink: /category/
 ---
 
 <!-- TODO: css  post-content fullwidth 참고 -->
-<div class="home" >
-    <h1>Category</h1>
+<div class="home categories post-content fullwidth" >
+    <h1 class="page-title">Category</h1>
     <!--TODO: 카테고리별 이름, 페이지 개수 표시 인라인으로 -->
     <!-- TODO: css 꾸미기 -->
     <div class="category-list">
         {% assign category_list = site.categories %}
-        <li>
             {% for category in category_list %}
             <!-- 카테고리명, 개수 -->
-            <ul>
-                <a href="#{{category[0]}}">
-                    <span>{{category[0]}}</span>
-                    <span>{{category[1].size}}</span>
-                </a>
-            </ul>
+            <a href="#{{category[0]}}">
+                <span class="category-name">{{category[0]}}</span>
+                <span class="counter">{{category[1].size}}</span>
+            </a>
             {% endfor %}
-        </li>
         {% assign category_list = nil %}
     </div>
     <hr>
@@ -31,7 +27,7 @@ permalink: /category/
         {% assign category_list = site.categories %}
         {% for category in category_list %} 
         <a class="post-anchor" id="{{ category[0] | slugify }}" style="display: block; height: 5rem;"></a>
-        <h1 class="title-category">{{category[0]}}</h1>
+        <h2 class="title-category">{{category[0]}}</h2>
         <span style="color: burlywood;">more</span>
         <hr>
         <div id="grid" class="row flex-grid">
