@@ -1,3 +1,4 @@
 # robotstxt.org/
-
+Allow: /
 User-agent: *
+Sitemap: {{ '/sitemap.xml' | relative_url | prepend: site.url }}
