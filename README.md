@@ -34,7 +34,9 @@ Sunmon's TIL(Today I Learn), Tech blog
 
 카테고리를 모아보는 화면입니다.
 
-카테고리별로 최근글을 5개까지 보여줍니다.
+카테고리별로 최근글을 3개까지 보여줍니다.
+
+![categories](assets/img/uploads/readme/categories.png)
 
 
 ### 카테고리별 포스팅 개수 
