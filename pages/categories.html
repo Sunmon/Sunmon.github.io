@@ -14,7 +14,7 @@ permalink: /category/
         {% assign category_list = site.categories %}
             {% for category in category_list %}
             <!-- 카테고리명, 개수 -->
-            <a href="#{{category[0]}}">
+            <a href="#{{category[0]  | slugify }}">
                 <span class="category-name">{{category[0]}}</span>
                 <span class="counter">{{category[1].size}}</span>
             </a>
@@ -22,14 +22,15 @@ permalink: /category/
         {% assign category_list = nil %}
     </div>
     <hr>
-    <!-- TODO: 카테고리별 최근글 5개까지, 카테고리 누르면 해당 카테 모아놓은걸로 이동 -->
-    <div class="category-postings" style="background-color: black">
+    <!-- TODO: 카테고리별 최근글 3개까지, 카테고리 누르면 해당 카테 모아놓은걸로 이동 -->
+    <div class="category-postings">
         {% assign category_list = site.categories %}
         {% for category in category_list %} 
-        <a class="post-anchor" id="{{ category[0] | slugify }}" style="display: block; height: 5rem;"></a>
-        <h2 class="title-category">{{category[0]}}</h2>
-        <span style="color: burlywood;">more</span>
-        <hr>
+        <a class="post-anchor" id="{{ category[0] | slugify }}"></a>
+        <div class="title-category">
+            <h2>{{category[0]}}</h2>
+            <a href="{{ site.baseurl }}/{{ site.categories_folder | default: 'category' }}/{{category[0]}}">more</a>
+        </div>
         <div id="grid" class="row flex-grid">
             {% for post in category[1] limit: 3 %}
             <article class="box-item">
