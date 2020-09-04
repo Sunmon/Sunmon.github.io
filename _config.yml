@@ -125,8 +125,8 @@ defaults:
       path: "_posts/_algorithms" # an empty string here means all files in the project
       type: "posts"
     values:
-      category: "algorithms"
-      optimized_image: "/assets/img/default_imgs/thumb/algorithms.png"
+      category: "algorithm"
+      optimized_image: "/assets/img/default_imgs/thumb/algorithm.png"
   - 
     scope:
       path: "_posts/web" # an empty string here means all files in the project
