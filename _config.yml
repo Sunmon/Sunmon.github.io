@@ -122,7 +122,7 @@ defaults:
       paginate: true
   - 
     scope:
-      path: "_posts/_algorithms" # an empty string here means all files in the project
+      path: "_posts/algorithms" # an empty string here means all files in the project
       type: "posts"
     values:
       category: "algorithm"
