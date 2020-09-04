@@ -33,6 +33,9 @@ pre {
   @include media(">=sm") {
     word-wrap: break-word;
     margin: rem(29px) 0;
+    /** set codeblock center **/
+    // @include center(rem(800px));
+    // margin: rem(29px) auto;
   }
 
   .hll {
