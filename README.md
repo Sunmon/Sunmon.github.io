@@ -23,6 +23,13 @@ Sunmon's TIL(Today I Learn), Tech blog
 
 ![underlines](assets/img/uploads/readme/underlines.png)  
   
+사용법:
+
+```html
+<span class="ud-[색상]">형광펜입니다</span>
+<span class="ud"> 기본 형광펜 => 바이올렛 </span>
+```
+
   
   
 ### TOC (Table-Of-Contents)
@@ -31,6 +38,10 @@ Sunmon's TIL(Today I Learn), Tech blog
 
 오픈소스 ***[progress-nav](https://github.com/hakimel/css/tree/master/progress-nav)*** 와 ***[jekyll-toc](https://github.com/allejo/jekyll-toc)*** 를 이용했습니다.
   
+사용법:
+
+`posts.yml`에서 `side_toc:true` 옵션을 줍니다.
+
 
 ### Category 모아보기
 
