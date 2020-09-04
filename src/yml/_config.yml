@@ -72,11 +72,59 @@ defaults:
     values:
       layout: "post"
       author: "sunmon"
+      category: "undefined"
       math: true
       paginate: true
-
-
-
+  - 
+    scope:
+      path: "_posts/_algorithms" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      category: "algorithms"
+      optimized_image: "/assets/img/default_imgs/thumb/algorithms.png"
+  - 
+    scope:
+      path: "_posts/web" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      category: "web"
+      optimized_image: "/assets/img/default_imgs/thumb/web.jpg"
+  - 
+    scope:
+      path: "_posts/blog" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      category: "blog"
+      optimized_image: "/assets/img/default_imgs/thumb/blog.jpg"
+  - 
+    scope:
+      path: "_posts/book" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      category: "book"
+      optimized_image: "/assets/img/default_imgs/thumb/book.jpg"
+  - 
+    scope:
+      path: "_posts/til" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      category: "TIL"
+      optimized_image: "/assets/img/default_imgs/thumb/til.jpg"
+      
+  - 
+    scope:
+      path: "_posts/tips" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      category: "tips"
+      optimized_image: "/assets/img/default_imgs/thumb/tips.jpg"
+  - 
+    scope:
+      path: "_posts/etc" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      category: "etc"
+      optimized_image: "/assets/img/default_imgs/thumb/etc.png"
 
 # Theme
 # version: v3.1.0
