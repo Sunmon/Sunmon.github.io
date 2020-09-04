@@ -66,7 +66,7 @@
             <!-- side toc -->
             {% if site.side_toc %}
             <aside class="side-toc">
-                <h2>{{ site.translations.text.side_toc | default: "TOC" }}</h2>
+                <h2>{{ site.translations.text.side_toc | default: "" }}</h2>
                 {% include toc.html html=content sanitize=true class="inline_toc" id="my_toc" h_min=2 h_max=3 item_class="toc_item" %}
             </aside>
             {% endif %}
