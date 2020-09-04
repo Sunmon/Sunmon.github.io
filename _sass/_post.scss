@@ -263,6 +263,13 @@
 
   pre {
     overflow-x: auto;
+    //center에 코드블럭 위치하도록 함
+    @include center(rem(800px));
+    margin: rem(20px) auto 0;
+
+    @include media(">=sm") {
+      margin: rem(29px) auto 0;
+    }
   }
 
   table {
