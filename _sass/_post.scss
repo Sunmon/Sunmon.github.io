@@ -385,17 +385,6 @@
   }
 }
 
-/* TOC layout */
-.side-toc {
-
-  @include media(">=sm") {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-  }
-}
-
-
 /* Progress bar */
 
 .progress-bar {
