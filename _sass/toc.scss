@@ -1,37 +1,6 @@
 
 $menuWidth: 14em;
 $menuPaddingLeft: 3em;
-.inline_toc {
-	// padding: 1em 2em 2em $menuWidth+$menuPaddingLeft;
-
-    .toc_item.active {
-        background-color: blue;
-    }
-
-    .toc_item {
-        // background: red;
-    }
-
-}
-
-
-// * {
-// 	box-sizing: border-box;
-// }
-
-// body {
-// 	width: 100vw;
-// 	height: 100vh;
-// 	overflow: auto;
-// }
-
-// body {
-// 	padding: 1em 2em 2em $menuWidth+$menuPaddingLeft;
-// 	font-size: 16px;
-// 	line-height: 1.6;
-
-// 	font-family: 'Roboto', sans-serif;
-// }
 
 /* TOC layout */  
 .side-toc {
@@ -82,50 +51,3 @@ $menuPaddingLeft: 3em;
 		transition: all 0.3s ease;
 	}
 }
-
-// .contents {
-// 	padding: 1em;
-// 	max-width: 800px;
-// 	font-size: 1.2em;
-// 	font-family: 'Frank Ruhl Libre', sans-serif;
-
-// 	img {
-// 		max-width: 100%;
-// 	}
-
-// 	.code-block {
-// 		white-space: pre;
-// 		overflow: auto;
-// 		max-width: 100%;
-
-// 		code {
-// 			display: block;
-// 			background-color: #f9f9f9;
-// 			padding: 10px;
-// 		}
-// 	}
-
-// 	.code-inline {
-// 		background-color: #f9f9f9;
-// 		padding: 4px;
-// 	}
-
-// 	h2
-// 	h3 {
-// 		padding-top: 1em;
-// 	}
-
-
-// 	h2 {
-// 		margin-top: 1.2em;
-// 	}
-// }
-
-
-// @media screen and (max-width: 1200px) {
-
-// 	body {
-// 		font-size: 14px;
-// 	}
-
-// }  
