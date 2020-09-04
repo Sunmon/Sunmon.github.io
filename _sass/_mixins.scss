@@ -1,5 +1,5 @@
 @mixin mainFont($weight: 700) {
-  font-family: "Titillium Web", "Noto Serif", "Helvetica Neue", Helvetica, "Noto Sans KR", "Noto Serif KR",  sans-serif;
+  font-family: "Titillium Web", "Noto Serif", "Noto Sans KR", "Noto Serif KR", sans-serif;
   font-weight: $weight;
   font-style: normal;
 }
