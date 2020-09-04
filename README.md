@@ -10,10 +10,10 @@ Sunmon's TIL(Today I Learn), Tech blog
 이 사이트는 ***[jetflix Theme](https://github.com/thiagorossener/jekflix-template)*** 을 기반으로 만들었습니다.
    
   
-## 추가로 구현한 기능
+## 추가한 기능
 
 테마에 덧붙여 제가 따로 추가한 기능입니다.
-.
+
 
 
 ### 형광펜
@@ -27,7 +27,9 @@ Sunmon's TIL(Today I Learn), Tech blog
   
 ### TOC (Table-Of-Contents)
 
-목차입니다. 대략적인 포스팅 내용을 정리해서 보여주며, 현재 위치를 표시합니다.
+목차입니다. 
+
+오픈소스 ***[progress-nav](https://github.com/hakimel/css/tree/master/progress-nav)*** 와 ***[jekyll-toc](https://github.com/allejo/jekyll-toc)*** 를 이용했습니다.
   
 
 ### Category 모아보기
