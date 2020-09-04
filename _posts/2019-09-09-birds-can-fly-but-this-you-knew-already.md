@@ -1,5 +1,5 @@
 ---
-date: 2010-09-10 12:26:40
+date: 2019-09-10 12:26:40
 layout: post
 title: Birds can fly, but this you knew already
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -11,6 +11,7 @@ tags:
   - life
   - tips
 author: thiagorossener
+toc: true
 ---
 
 Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.

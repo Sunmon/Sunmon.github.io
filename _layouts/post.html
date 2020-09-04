@@ -33,7 +33,7 @@
 
                 {% include pagination-post.html progressBar=true %}
 
-                {% include toc.html %}
+                {% include toc.html html=content sanitize=true class="inline_toc" id="my_toc" h_min=2 h_max=3 item_class="toc_item" %}
 
                 {{ content }}
 
