@@ -27,6 +27,21 @@ pre {
   }
 }
 
+.gist {
+  @include center(rem(800px));
+  @include media("<sm") {
+    overflow-x: scroll;
+  }
+
+  table td {
+    border: initial;
+  }
+}
+
+pre.highlight::after{
+  content: none;
+}
+
 .highlight {
   margin: rem(20px) 0;
 
