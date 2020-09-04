@@ -35,8 +35,10 @@ $menuPaddingLeft: 3em;
 
 /* TOC layout */  
 .side-toc {
-    @include media(">=sm"){
+    display: none;
 
+    @include media(">=xl"){
+        display: block;
         position: fixed;
         left: $menuPaddingLeft;
         top: 5em;
