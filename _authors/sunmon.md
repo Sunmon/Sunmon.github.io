@@ -7,7 +7,7 @@ position: Frontend Developer
 bio: game lover.
 github_username: sunmon
 linkedin_username: sunmon
-medium_username: sunmon
+# medium_username: sunmon
 tistory_username: conservative-vector
 ---
 
