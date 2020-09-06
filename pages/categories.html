@@ -36,7 +36,9 @@ permalink: /category/
             <article class="box-item">
             <div class="box-body">
                 <!-- NOTE: post 이미지가 있을때만 보여줄까? -->
-                {% if post.image %}
+                {% comment %} 
+                {% raw %} {% if post.image %} {% endraw %} 
+                {% endcomment %}
                 <a class="cover" href="{{ post.url | prepend: site.baseurl }}">
                     {% include loader.html %}
                     {% if post.optimized_image %}
@@ -61,7 +63,9 @@ permalink: /category/
                     {% include new-post-tag.html date=post.date %}
                     {% include read-icon.html %}
                 </a>
-                {% endif %}
+                {% comment %} 
+                {% raw %} {% endif %} {% endraw %}
+                {% endcomment %}
                 <div class="box-info">
                     <time datetime="{{ post.date | date_to_xmlschema }}" class="date">
                         {% include date.html date=post.date %}
