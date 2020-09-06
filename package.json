@@ -38,5 +38,9 @@
     "lodash.merge": "^4.6.2",
     "vinyl-source-stream": "^2.0.0",
     "bl": ">=2.2.1"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^6.11.0",
+    "fetch-jsonp": "^1.1.3"
   }
 }
