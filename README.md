@@ -68,3 +68,13 @@ Sunmon's TIL(Today I Learn), Tech blog
 <img src="assets/img/uploads/readme/category-counter.png" alt="category-counter" width="50%"/>
 
 
+### 5.callout
+
+노션에 있는 callout이 이뻐서 만들었습니다.
+
+<img src="assets/img/uploads/readme/callout.png" alt="callout" width="50%"/>
+
+사용법:
+```html
+<p class="callout"> 💡 Callout something! </p>
+```
