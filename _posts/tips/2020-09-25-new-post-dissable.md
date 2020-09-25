@@ -6,7 +6,7 @@ tags:
 image: https://res.cloudinary.com/dtttkj2mc/image/upload/v1601003475/post/tips/etc/newpost_znc81q.png
 ---
 
-<span class="callout"> 💡 newpost 마크가 안 사라지는 이유를 알아본다</span>
+<p> class="callout"> 💡 newpost 마크가 안 사라지는 이유를 알아본다</p>
 
 현재 jekflix테마를 사용하고 있다. 이 테마는 7일 이내에 새로 작성한 글이면 'new post' 딱지를 표시한다.
 맨 위 사진처럼 말이다.
