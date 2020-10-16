@@ -122,19 +122,34 @@ let msg2 = () => {
 
 ```js
   const sven = {
-    food: carrot,
+    food: ["carrot"],
+    familly: ["kristoff"],
     married: true,
-    eat: 1,
-    let eating = function(){
-      return this.eat;
+    eating() {
+      let addFood = () => {
+        let foods = ["ice", "banana", "apple", "maratang"];
+        let addFamilly = this.married ?
+          () => this.familly.concat("elsa", "anna", "olaf") : () => this.familly;
+        
+        for(let i=0; i<addFamilly().length; i++){
+          this.food.push(foods[i]);
+        }
+
+        return `sven은 ${this.food.length}개의 음식을 먹었다
+        먹은 음식 : ${this.food}`;
+      }
+      return addFood();
     }
   }
 
-  alert(sven.eating());
+  sven.eating();
 
 ```
 
+화살표함수는 this가 화살표함수가 아닌 다른 함수를 만날때까지 상위 스코프로 올라간다.
 
+addFamilly라는 변수의 화살표함수를 보자.\
+()=> this.familly.concat 부분은, 상위 스코프의 this를 가리킨다. 그런데 상위 스코프인 addFood도 this가 없기 때문에 한 번 더 올라간다. 결국 이 익명함수는 eating()의 this를 빌려오게 된다. 그리하여, this가 sven을 가리키는 것이다.
 
 또한, 화살표함수는 생성자 함수로 사용할 수 없다. this가 없기 때문에, new를 붙여 호출하는 생성자 함수로 사용할 수 없다.
 
