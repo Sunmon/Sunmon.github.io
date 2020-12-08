@@ -4,6 +4,7 @@ layout: post
 title: vscode에 eslint와 prettier 설정하기
 description: eslint airbnb-base와 prettier로 코드 규약을 맞추고 스타일링하는 방법을 정리한다
 image: https://res.cloudinary.com/dtttkj2mc/image/upload/t_post_img/v1607415891/etc/ESLint-icon_xmsigz.png
+optimized_image: https://res.cloudinary.com/dtttkj2mc/image/upload/c_pad,w_380,h_200/t_post_img/v1607415891/etc/ESLint-icon_xmsigz.png
 ---
 
 <p class="callout"> 💡 개발환경을 eslint와 prettier로 설정해보자 </p>

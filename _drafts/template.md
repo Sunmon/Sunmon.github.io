@@ -36,3 +36,7 @@ Out-of-excerpt
     </li>
   {% endfor %}
 </ul>
+
+
+이미지 크기 : 760x399
+optimized 크기: 380x200
