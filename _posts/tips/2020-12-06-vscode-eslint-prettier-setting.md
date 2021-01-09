@@ -135,7 +135,7 @@ ESLint는 린트 스타일을 설정할 수 있다. `;` 을 넣거나 빼거나,
 npm 5버전 이상을 사용하고 있으므로, npx 명령어를 이용하여 모든 dependency를 한번에 설치한다.
 
 ```bash
-$ npx install-peerdeps --dev --save-dev eslint-config-airbnb-base
+$ npx install-peerdeps --dev eslint-config-airbnb-base
 ```
 
 `.eslintrc.json` 파일의 extends에 airbnb를 추가한다.  더불어, eslint를 사용하면서 에러가 나는 경우가 있으니 다른 설정들도 함께 수정했다.
@@ -223,6 +223,11 @@ $ npm install eslint-plugin-prettier@latest --save-dev -g
 // estlintrc.json
 "extends": ["eslint:recommended","airbnb-base", "plugin:prettier/recommended"],
 ```
+
+<p class="callout">⚠️ Vscode에서 .prettierrc와 eslint(prettier/prettier)의 싱크가 맞지 않는 문제가 발생하는 경우</p>
+
+vscode를 이용할 떄, prettierrc는 수정했으나 eslint에는 반영되지 않는 경우가 있다. 이런 경우, vscode를 재시작하면 변경된 prettierrc로 잘 적용된다. 참고 링크 (<https://github.com/prettier/eslint-plugin-prettier/issues/103>)
+
 
 **린트에 prettier 적용 확인하기**
 
