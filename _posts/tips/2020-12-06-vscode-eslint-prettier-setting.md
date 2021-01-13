@@ -215,6 +215,9 @@ $ npm install --save-dev --save-exact prettier
 
 ```bash
 $ npm install eslint-plugin-prettier@latest --save-dev -g 
+$ npm install --save-dev eslint-config-prettier # prettier와 겹치는 eslint 룰 삭제
+$ npm install --save-dev eslint-plugin-prettier # eslint 기본 포맷 대신 프리티어 룰과 동일한 포매팅을 이용함
+
 ```
 
 `.eslintrc`에 프리티어 확장팩을 설정한다. 뒤에 오는 설정이 앞을 덮어쓰기때문에 꼭 prettier가 뒤로 와야 한다!
